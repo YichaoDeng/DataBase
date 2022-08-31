@@ -1,9 +1,9 @@
 # mysql config
 
 USER = "root"
-PASSWORD = "root"
+PASSWORD = "Zz123456"
 HOST = "127.0.0.1"
-DATABASE = "test"
+DATABASE = "mysql"
 PORT = 3306
 
 mysql_config = {

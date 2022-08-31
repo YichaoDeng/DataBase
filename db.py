@@ -8,7 +8,7 @@ import pymysql
 from loguru import logger
 
 
-class MySql(object):
+class MySqlDB(object):
     """
     Mysql 工具类
     """
@@ -34,6 +34,7 @@ class MySql(object):
         self.charset = charset
         self.auto_commit = True
         self.batch_size = batch_size
+        self._init_conf()
 
     def _init_conf(self):
         """
@@ -50,7 +51,8 @@ class MySql(object):
         :return:
         """
         try:
-            db = pymysql.connect(**spec)
+            db = pymysql.connect(host=spec['host'], port=spec['port'], user=spec['user'], password=spec['password'],
+                                 db=spec['database'])
             cursor = db.cursor()
             cursor.execute(f"SET NAMES {self.charset}")
         except Exception:
