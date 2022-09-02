@@ -1,6 +1,6 @@
 """
 @author: yichao.deng
-@file: MysqlDB.py
+@file: MySqlDB.py
 @time: 2022-09-02
 """  # noqa
 
