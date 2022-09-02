@@ -1,20 +1,20 @@
-2022-09-02T01:51:35.808901+0800 INFO INSERT   INTO test_table (name, age) VALUES ("张三", "10"), 1
-2022-09-02T01:51:35.809795+0800 INFO INSERT   INTO test_table (name, age) VALUES ("王五", "20"), 1
-2022-09-02T02:04:53.627590+0800 INFO 2022-09-02 02:04:53.627566, (), None
-2022-09-02T02:05:50.001233+0800 INFO 2022-09-02 02:05:50.001224, (1, 2), 3
-2022-09-02T02:06:06.970942+0800 INFO 2022-09-02 02:06:06.950439, ('test_table', 'name, age', [{'name': '张三', 'age': 10}]), 1
-2022-09-02T02:06:06.970942+0800 INFO 2022-09-02 02:06:06.950439, ('test_table', 'name, age', [{'name': '张三', 'age': 10}]), 1
-2022-09-02T02:06:06.972400+0800 INFO 2022-09-02 02:06:06.971381, ('test_table', 'name, age', [{'name': '王五', 'age': 20}]), 1
-2022-09-02T02:06:06.972400+0800 INFO 2022-09-02 02:06:06.971381, ('test_table', 'name, age', [{'name': '王五', 'age': 20}]), 1
-2022-09-02T02:18:06.142768+0800 INFO 1662056286.122004, INSERT   INTO test_table (name, age) VALUES ("张三", "10"), 1
-2022-09-02T02:18:06.142768+0800 INFO 1662056286.122004, INSERT   INTO test_table (name, age) VALUES ("张三", "10"), 1
-2022-09-02 02:18:51.724 | INFO     | log:inner:12 - 1662056331722, INSERT   INTO test_table (name, age) VALUES ("张三", "10"), 1
-2022-09-02T02:18:51.724908+0800 INFO 1662056331722, INSERT   INTO test_table (name, age) VALUES ("张三", "10"), 1
-2022-09-02 02:19:07.296 | INFO     | log:inner:12 - 1662056347294, INSERT   INTO test_table (name, age) VALUES ("张三", "10"), 1
-2022-09-02T02:19:07.296015+0800 INFO 1662056347294, INSERT   INTO test_table (name, age) VALUES ("张三", "10"), 1
-2022-09-02 02:19:51.074 | INFO     | log:inner:12 - 1662056391072, INSERT   INTO test_table (name, age) VALUES ("张三", "10"), 1
-2022-09-02T02:19:51.074613+0800 INFO 1662056391072, INSERT   INTO test_table (name, age) VALUES ("张三", "10"), 1
-2022-09-02T02:33:24.863127+0800 INFO 1662057204850, None, 1
-2022-09-02T02:33:24.863127+0800 INFO 1662057204850, None, 1
-2022-09-02T02:33:24.864300+0800 INFO 1662057204863, None, 1
-2022-09-02T02:33:24.864300+0800 INFO 1662057204863, None, 1
+2022-09-02T22:37:22.505609+0800, INFO, 1662129442503, root, select * from test_table limit 10, True
+2022-09-02T22:37:22.506719+0800, INFO, 1662129442506, root, select * from test_table limit 10, True
+2022-09-02T22:38:24.004820+0800, INFO, 1662129504003, root, xxxxxxx, False
+2022-09-02T22:38:24.005549+0800, INFO, 1662129504004, root, select * from test_table limit 10, True
+2022-09-02T22:38:24.005922+0800, INFO, 1662129504005, root, select * from test_table limit 10, True
+2022-09-02T22:38:46.794545+0800, INFO, 1662129526793, root, xxxxxxx, False
+2022-09-02T22:38:46.795237+0800, INFO, 1662129526794, root, select * from test_table limit 10, True
+2022-09-02T22:38:46.795565+0800, INFO, 1662129526795, root, select * from test_table limit 10, True
+2022-09-02T22:41:53.354465+0800, INFO, 1662129713352, root, xxxxxxx, False
+2022-09-02T22:41:53.355850+0800, INFO, 1662129713354, root, select * from test_table limit 10, True
+2022-09-02T22:41:53.356335+0800, INFO, 1662129713355, root, select * from test_table limit 10, True
+2022-09-02T23:19:51.475590+0800, INFO, 1662131991471, root, xxxxxxx, False
+2022-09-02T23:19:51.485940+0800, INFO, 1662131991475, root, select * from test_table limit 10, True
+2022-09-02T23:19:51.486310+0800, INFO, 1662131991486, root, select * from test_table limit 10, True
+2022-09-02T23:21:30.680345+0800, INFO, 1662132090679, root, xxxxxxx, False
+2022-09-02T23:21:30.681355+0800, INFO, 1662132090680, root, select * from test_table limit 10, True
+2022-09-02T23:21:30.681701+0800, INFO, 1662132090681, root, select * from test_table limit 10, True
+2022-09-02T23:22:15.199723+0800, INFO, 1662132135198, root, xxxxxxx, False
+2022-09-02T23:22:15.200418+0800, INFO, 1662132135199, root, select * from test_table limit 10, True
+2022-09-02T23:22:15.200768+0800, INFO, 1662132135200, root, select * from test_table limit 10, True
