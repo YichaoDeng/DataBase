@@ -3,7 +3,7 @@
 USER = "root"
 PASSWORD = "Zz123456"
 HOST = "127.0.0.1"
-DATABASE = "mysql"
+DATABASE = "test"
 PORT = 3306
 
 mysql_config = {
