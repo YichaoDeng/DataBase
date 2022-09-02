@@ -18,3 +18,6 @@
 2022-09-02T23:22:15.199723+0800, INFO, 1662132135198, root, xxxxxxx, False
 2022-09-02T23:22:15.200418+0800, INFO, 1662132135199, root, select * from test_table limit 10, True
 2022-09-02T23:22:15.200768+0800, INFO, 1662132135200, root, select * from test_table limit 10, True
+2022-09-02T23:26:03.248297+0800, INFO, 1662132363247, root, xxxxxxx, False
+2022-09-02T23:26:03.249227+0800, INFO, 1662132363248, root, select * from test_table limit 10, True
+2022-09-02T23:26:03.249563+0800, INFO, 1662132363249, root, select * from test_table limit 10, True

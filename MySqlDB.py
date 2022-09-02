@@ -1,3 +1,9 @@
+"""
+@author: yichao.deng
+@file: MysqlDB.py
+@time: 2022-09-02
+"""  # noqa
+
 import subprocess
 import time
 from pprint import pprint
@@ -223,6 +229,6 @@ if __name__ == '__main__':
         {ret_2}
     """)
 
-    server = ServerTools()
-    ret = server.get_port_info(port=3306)
-    pprint(ret)
+    # server = ServerTools()
+    # ret = server.get_port_info(port=3306)
+    # pprint(ret)
